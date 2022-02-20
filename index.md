@@ -31,4 +31,19 @@ Greater than 95% accuracy in predicting the winner when given all features of ma
 
 Greater than 75% accuracy in predicting the winner when only given features of match data that would be known before the match (such a character selection, region, etc)
 
+### Proposed Timeline 
+
+
+| Week      | Work |
+| ----------- | ----------- |
+|  2/20/22 (Proposal Due)    |        |
+|  2/27/22     |        |
+|  3/6/22     |        |
+|  3/13/22     |        |
+|  3/20/22     |        |
+|  3/27/22     |        |
+|  4/3/22 (Project midpoint report)     |        |
+|  4/10/22     |        |
+|  4/17/22     |        |
+|  4/24/22 (Final Project Due)    |        |
 
