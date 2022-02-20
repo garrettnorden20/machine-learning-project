@@ -13,7 +13,7 @@ Our goal is to forecast the winner of a match given all the data in the match (s
 The dataset this model uses was pulled from Riot Games' API and consists of over 180,000 individual matches from 2014-2018, and was downloaded from here.
 https://www.kaggle.com/paololol/league-of-legends-ranked-matches
 
-Each match has 80 features and a label of which team won the match. 
+Each match has 80 features and a label of which team won the match.
 
 ### Method: Supervised Learning
 Task: Predict the winner of the match based off the features of the match
@@ -22,5 +22,13 @@ Train/Test Data: Match data taken from Riot Games' API, with a label of which te
 
 Output: Predict which team will win the match by giving a percentage chance, based on the match data
 
-Methods: Basic neural net, decision tree, random forest
+Methods: Basic neural net, decision tree, random forest, dimensional reduction
+
+### Potential Results and Discussion
+Build a classifier that will accurately determine the outcome of a match with accuracy based on the given parts of a match:
+
+Greater than 95% accuracy in predicting the winner when given all features of match data (particularly data that occurs during the match, such as total damage dealt and taken) 
+
+Greater than 75% accuracy in predicting the winner when only given features of match data that would be known before the match (such a character selection, region, etc)
+
 
