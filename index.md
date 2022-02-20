@@ -1,4 +1,4 @@
-# Predicting Ranking Based on Other Player Data in League of Legends
+# Predicting the Winner of a Match based on Match Data in League of Legends
 
 
 ### Introduction
