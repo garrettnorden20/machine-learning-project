@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Predicting Ranking Based on Other Player Data in League of Legends
 
-You can use the [editor on GitHub](https://github.com/garrettnorden20/machine-learning-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
 
-### Markdown
+League of Legends is a multiplayer online battle arena video game created by Riot Games. Matches are 5v5, where two teams attempt to take the other team's side of the map while defending their own. It is considered the world's largest esport, with millions of unique viewers each month for tournaments. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Problem Definition
 
-```markdown
-Syntax highlighted code block
+Our goal is to forecast the winner of a match given all the data in the match (such as the characters on each team, damage done per minute, etc). There are many ways this model could be used. Teams wanting to experiment with new team compositions without wanting to hurt their rankings could see how changes in heroes could affect their predicted win rate. Players could also see the most important elements of a match - i.e., the features that drive the prediction the most. Many of the viewers of competetive matches could also use these predictions to make more informed betting decisions. 
 
-# Header 1
-## Header 2
-### Header 3
+### Data
+The dataset this model uses was pulled from Riot Games' API and consists of over 180,000 individual matches from 2014-2018, and was downloaded from here.
+https://www.kaggle.com/paololol/league-of-legends-ranked-matches
 
-- Bulleted
-- List
+Each match has 80 features and a label of which team won the match. 
 
-1. Numbered
-2. List
+### Method: Supervised Learning
+Task: Predict the winner of the match based off the features of the match
+Train/Test Data: Match data taken from Riot Games' API, with a label of which team won
+Methods: Basic neural net, decision tree, random forest
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/garrettnorden20/machine-learning-project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
