@@ -17,6 +17,10 @@ Each match has 80 features and a label of which team won the match.
 
 ### Method: Supervised Learning
 Task: Predict the winner of the match based off the features of the match
+
 Train/Test Data: Match data taken from Riot Games' API, with a label of which team won
+
+Output: Predict which team will win the match by giving a percentage chance, based on the match data
+
 Methods: Basic neural net, decision tree, random forest
 
