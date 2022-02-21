@@ -7,7 +7,7 @@ League of Legends is a multiplayer online battle arena video game created by Rio
 
 ### Problem Definition
 
-Our goal is to forecast the winner of a match given all the data in the match (such as the characters on each team, damage done per minute, etc). There are many ways this model could be used. Teams wanting to experiment with new team compositions without wanting to hurt their rankings could see how changes in heroes could affect their predicted win rate. Players could also see the most important elements of a match - i.e., the features that drive the prediction the most. Many of the viewers of competetive matches could also use these predictions to make more informed betting decisions. 
+Our goal is to forecast the winner of a match given all the data in the match (such as the characters on each team, damage done per minute, etc). There are many ways this model could be used. Teams wanting to experiment with new team compositions without wanting to hurt their rankings could see how changes in heroes could affect their predicted win rate. Players could also see the most important elements of a match - i.e., the features that drive the prediction the most. Many of the viewers of competitive matches could also use these predictions to make more informed betting decisions. 
 
 ### Data
 The dataset this model uses was pulled from Riot Games' API and consists of over 180,000 individual matches from 2014-2018, and was downloaded from here.
@@ -37,7 +37,7 @@ Greater than 75% accuracy in predicting the winner when only given features of m
 | Week      | Work |
 | ----------- | ----------- |
 |  2/20/22 (Proposal Due)    |    Finish proposal and video, gather data    |
-|  2/27/22     |   Setup repository and Python files, determine which dependicies to use, sanitize data   |
+|  2/27/22     |   Setup repository and Python files, determine which dependecies to use, sanitize data   |
 |  3/6/22     |    Analyze data and research neural network and random forest |
 |  3/13/22     |   Analyze data and continue research, begin groundwork implementation  |
 |  3/20/22     |   Implement the neural networks and random forest  |
@@ -46,4 +46,11 @@ Greater than 75% accuracy in predicting the winner when only given features of m
 |  4/10/22     |   Wrap up final product, work on stretch goals     |
 |  4/17/22     |   Work on stretch goals, create final report     |
 |  4/24/22 (Final Project Due)    |   Finish final report, create video     |
+
+### Responsibilities
+Garrett: code, research
+Noah: code, write-ups
+Zhenyu: code, research
+Benjamin: code, meetings 
+Jiacheng: code, research
 
