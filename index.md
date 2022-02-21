@@ -36,14 +36,14 @@ Greater than 75% accuracy in predicting the winner when only given features of m
 
 | Week      | Work |
 | ----------- | ----------- |
-|  2/20/22 (Proposal Due)    |        |
-|  2/27/22     |        |
-|  3/6/22     |        |
-|  3/13/22     |        |
-|  3/20/22     |        |
-|  3/27/22     |        |
-|  4/3/22 (Project midpoint report)     |        |
-|  4/10/22     |        |
-|  4/17/22     |        |
-|  4/24/22 (Final Project Due)    |        |
+|  2/20/22 (Proposal Due)    |    Finish proposal and video, gather data    |
+|  2/27/22     |   Setup repository and Python files, determine which dependicies to use, sanitize data   |
+|  3/6/22     |    Analyze data and research neural network and random forest |
+|  3/13/22     |   Analyze data and continue research, begin groundwork implementation  |
+|  3/20/22     |   Implement the neural networks and random forest  |
+|  3/27/22     |   Continue implementation, begin to work on midpoint report    |
+|  4/3/22 (Project midpoint report)     |   Complete minimum viable product, create midpoint report     |
+|  4/10/22     |   Wrap up final product, work on stretch goals     |
+|  4/17/22     |   Work on stretch goals, create final report     |
+|  4/24/22 (Final Project Due)    |   Finish final report, create video     |
 
