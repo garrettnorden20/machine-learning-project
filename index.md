@@ -58,6 +58,8 @@ Jiacheng: code, research
 https://drive.google.com/file/d/1q2MiASSYoRDk6oPbt-X9nTPIFel2G4xx/view?usp=sharing
 
 ### References
-https://www.cnbc.com/2019/04/14/league-of-legends-gets-more-viewers-than-super-bowlwhats-coming-next.html
-https://ffaheroes.medium.com/predicting-outcome-of-league-of-legend-ranked-games-in-champselect-via-machine-learning-8f9d86669eae
-https://towardsdatascience.com/match-prediction-in-league-of-legends-using-vanilla-deep-neural-network-7cadc6fce7dd
+Pei, Annie. “This Esports Giant Draws in More Viewers than the Super Bowl, and It's Expected to Get Even Bigger.” CNBC, CNBC, 14 Apr. 2019, 
+Cabrol, Dan. “Predicting Outcome of League of Legend Ranked Games in Champselect via Machine Learning.” Medium, Medium, 9 Nov. 2020, https://ffaheroes.medium.com/predicting-outcome-of-league-of-legend-ranked-games-in-champselect-via-machine-learning-8f9d86669eae. 
+Do, Tiffany D., et al. “Using Machine Learning to Predict Game Outcomes Based on Player-Champion Experience in League of Legends.” The 16th International Conference on the Foundations of Digital Games (FDG) 2021, 2021, https://doi.org/10.1145/3472538.3472579.
+Kim, Seouk Jun. “Match Prediction in League of Legends Using Vanilla Deep Neural Network.” Medium, Towards Data Science, 18 Apr. 2020, https://towardsdatascience.com/match-prediction-in-league-of-legends-using-vanilla-deep-neural-network-7cadc6fce7dd. 
+
