@@ -56,3 +56,8 @@ Jiacheng: code, research
 
 ### Video Presentation
 https://drive.google.com/file/d/1q2MiASSYoRDk6oPbt-X9nTPIFel2G4xx/view?usp=sharing
+
+### References
+https://www.cnbc.com/2019/04/14/league-of-legends-gets-more-viewers-than-super-bowlwhats-coming-next.html
+https://ffaheroes.medium.com/predicting-outcome-of-league-of-legend-ranked-games-in-champselect-via-machine-learning-8f9d86669eae
+https://towardsdatascience.com/match-prediction-in-league-of-legends-using-vanilla-deep-neural-network-7cadc6fce7dd
