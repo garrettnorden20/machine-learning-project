@@ -33,26 +33,18 @@ Greater than 75% accuracy in predicting the winner when only given features of m
 
 ### Proposed Timeline 
 
-
-| Week      | Work |
-| ----------- | ----------- |
-|  2/20/22 (Proposal Due)    |    Finish proposal and video, gather data    |
-|  2/27/22     |   Setup repository and Python files, determine which dependecies to use, sanitize data   |
-|  3/6/22     |    Analyze data and research neural network and random forest |
-|  3/13/22     |   Analyze data and continue research, begin groundwork implementation  |
-|  3/20/22     |   Implement the neural networks and random forest  |
-|  3/27/22     |   Continue implementation, begin to work on midpoint report    |
-|  4/3/22 (Project midpoint report)     |   Complete minimum viable product, create midpoint report     |
-|  4/10/22     |   Wrap up final product, work on stretch goals     |
-|  4/17/22     |   Work on stretch goals, create final report     |
-|  4/24/22 (Final Project Due)    |   Finish final report, create video     |
-
-### Responsibilities
-Garrett: code, research
-Noah: code, write-ups
-Zhenyu: code, research
-Benjamin: code, meetings 
-Jiacheng: code, research
+|               Week               |                                         Work                                         | Noah       | Garrett    | Benjamin   | Zhenyu     | Jiacheng   |
+|:--------------------------------:|:------------------------------------------------------------------------------------:|------------|------------|------------|------------|------------|
+| 2/20/22 (Proposal Due)           | Finish proposal and video, gather data                                               | code       | code       | research   | code       | research   |
+| 2/27/22                          | Setup repository and Python files, determine which dependecies to use, sanitize data | research   | code       | code       | research   | code       |
+| 3/6/22                           | Analyze data and research neural network and random forest                           | code       | research   | code       | research   | code       |
+| 3/13/22                          | Analyze data and continue research, begin groundwork implementation                  | research   | code       | research   | code       | test model |
+| 3/20/22                          | Implement the neural networks and random forest                                      | test model | code       | code       | research   | code       |
+| 3/27/22                          | Continue implementation, begin to work on midpoint report                            | video      | code       | video      | code       | code       |
+| 4/3/22 (Project midpoint report) | Complete minimum viable product, create midpoint report                              | code       | test model | code       | test model | code       |
+| 4/10/22                          | Wrap up final product, work on stretch goals                                         | code       | code       | test model | test model | code       |
+| 4/17/22                          | Work on stretch goals, create final report                                           | code       | test model | code       | code       | code       |
+| 4/24/22 (Final Project Due)      | Finish final report, create video                                                    | video      | code       | video      | code       | test model |
 
 ### Video Presentation
 https://drive.google.com/file/d/1q2MiASSYoRDk6oPbt-X9nTPIFel2G4xx/view?usp=sharing
