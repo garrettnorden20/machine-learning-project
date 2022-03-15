@@ -27,5 +27,13 @@ allstats = allstats_orig.copy()
 allstats = allstats.loc[allstats["duration"] >= 10*60,:]
 # print(allstats)
 
+# Convert string-based categories to numeric values
+cat_cols = ["role", "position", "version", "platformid"]
+for c in cat_cols:
+    allstats[c] = allstats[c].astype('category')
+    allstats[c] = allstats[c].cat.codes
+allstats["wardsbought"] = allstats["wardsbought"].astype(np.int32)
 
+X = allstats.drop(["win"], axis=1)
+y = allstats["win"]
 
