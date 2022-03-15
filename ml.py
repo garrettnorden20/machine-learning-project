@@ -21,4 +21,3 @@ print(stats)
 a = pd.merge(participants, matches, left_on="matchid", right_on="id")
 allstats_orig = pd.merge(a, stats, left_on="matchid", right_on="id")
 allstats = allstats_orig.copy()
-
