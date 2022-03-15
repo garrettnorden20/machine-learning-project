@@ -16,7 +16,7 @@ stats2_1 = pd.read_csv(prefix+"stats2_1.csv", low_memory=False)
 stats2_2 = pd.read_csv(prefix+"stats2_2.csv", low_memory=False)
 stats2_3 = pd.read_csv(prefix+"stats2_3.csv", low_memory=False)
 stats = pd.concat([stats1_1,stats1_2,stats1_3,stats1_4,stats2_1,stats2_2,stats2_3])
-print(stats)
+
 # merge into a single DataFrame
 a = pd.merge(participants, matches, left_on="matchid", right_on="id")
 allstats_orig = pd.merge(a, stats, left_on="matchid", right_on="id")
@@ -24,13 +24,4 @@ allstats = allstats_orig.copy()
 
 # drop games that lasted less than 10 minutes
 allstats = allstats.loc[allstats["duration"] >= 10*60,:]
-
-# Convert string-based categories to numeric values
-cat_cols = ["role", "position", "version", "platformid"]
-for c in cat_cols:
-    allstats[c] = allstats[c].astype('category')
-    allstats[c] = allstats[c].cat.codes
-allstats["wardsbought"] = allstats["wardsbought"].astype(np.int32)
-
-X = allstats.drop(["win"], axis=1)
-y = allstats["win"]
+print(allstats)
