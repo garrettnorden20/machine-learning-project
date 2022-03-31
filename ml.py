@@ -23,5 +23,5 @@ allstats_orig = pd.merge(a, stats, left_on="matchid", right_on="id")
 allstats = allstats_orig.copy()
 
 # drop games that lasted less than 15 minutes
-allstats = allstats.loc[allstats["duration"] >= 15*60,:]
+allstats = allstats.loc[allstats["duration"] >= 10*60,:]
 print(allstats)
