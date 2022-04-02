@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import xgboost as xgb
+import sklearn as sci
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as pl
 import shap
@@ -70,3 +71,12 @@ def final_position(row):
         return row['role']
     else:
         return row['position']
+
+
+def logistic_regression(X, y):
+    Xt, Xv, yt, yv = train_test_split(X, y, test_size=0.2, random_state=10)
+    LR = sci.linear_model.LogisticRegression(random_state=0, solver='lbfgs', multi_class='ovr').fit(Xt, yt)
+    LR.predict(Xv)
+    round(LR.score(Xv, yv), 4)
+    return round(LR.score(Xv, yv), 4)
+
