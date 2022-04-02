@@ -27,7 +27,7 @@ Methods: Basic neural net, decision tree, random forest, dimensional reduction
 ### Potential Results and Discussion
 Build a classifier that will accurately determine the outcome of a match with accuracy based on the given parts of a match:
 
-Greater than 95% accuracy in predicting the winner when given all features of match data (particularly data that occurs during the match, such as total damage dealt and taken) 
+Greater than 95% accuracy in predicting the winner when given the most important first n-th features of match data (particularly data that occurs during the match, such as total damage dealt and taken) 
 
 Greater than 75% accuracy in predicting the winner when only given features of match data that would be known before the match (such a character selection, region, etc)
 
