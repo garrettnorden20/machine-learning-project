@@ -1,6 +1,6 @@
-﻿Group 48
+﻿**Group 48**
 
-Benjamin Lathrop, Noah Bond, Jiacheng Shang, Zhenyu Wu, Garrett Norden <https://github.com/garrettnorden20/machine-learning-project>
+Benjamin Lathrop, Noah Bond, Jiacheng Shang, Zhenyu Wu, Garrett Norden
 
 **Background**
 
@@ -42,10 +42,7 @@ We used the f\_regression to get scores for every one of the features. Using the
 |Deaths|423825.74|Time needed to return after dying goes up during the game. While dead, you can fall behind as your opponent collects gold, xp, and damages or kills turrets.|
 |Turret Kills|318142.5|Turrets stand between teams and the enemy base and must be destroyed in order to win.|
 |Assists|259543.0|Overall, used as a metric to see if teams are fighting together or alone.|
-
-
 |Gold Spent|210293.67|Gold is used to buy items that improve stats and can provide new abilities.|
-| - | - | :- |
 |Inhibitor Kills|184150.42|At least one inhibitor being destroyed is required for a win.|
 |Kills|160946.57|When a player gets a kill, they earn gold, experience, and most importantly an edge over their lane opponent. This can lead to snowballs in games if a player gets many kills in the opening minutes.|
 |Champion Level|89209.08|Champions level up from experience and gain more powerful abilities with each level.|
@@ -60,6 +57,8 @@ We used the f\_regression to get scores for every one of the features. Using the
 |Pink Wards Bought|2111.36|Pink wards disable normal wards and cost gold each time they are used.|
 |Total CC Time Dealt|2055.69|CC (Crowd Control) refers to things like being stunned, slowed, or put to sleep. Many champions are designed to CC the enemy team to enable damage dealers to move in for the kill.|
 |Duration|0.12|Some champions get stronger over time, whereas some peak early in the match. Longer games benefit the former and shorter the latter.|
+
+
 Looking at the graph, the obvious most important feature seems to be gold earned. This makes the most sense, as gold is what is needed to purchase items that allow champions to become more powerful. A player who earns lots of gold will see a gap develop between their champion and their lane opponent’s champion. It is also worth noting that many other of the top features reward players with gold, such as getting kills, assists, killing minions, and destroying turrets and inhibitors. The next most important feature is deaths, which is the most negatively impacting of the top features. Dying rewards your opponents with gold, experience, and it removes you from the game for anywhere from five seconds to over a minute in long games. During that time, the opponents have one less player to keep track of and a massive advantage in being able to kill minions and damage turrets uninterrupted. Turrets and inhibitors are a genuine requirement to win, as a team needs to destroy at minimum five turrets and one inhibitor to destroy the enemy’s nexus and win the game. We can also see the further results of this impact via the next most important pieces of data all being kill-related: All of these individual factors contribute towards increasing the opponent’s death count. Some of the lesser important of the top features include things like wards. Wards provide information to players and while they do not explicitly cause kills or deaths, good players know to use them to keep tabs on the position of the enemy players.
 
 ![](Aspose.Words.2d97583b-48ab-4a38-a3fd-ebb63338d17e.002.jpeg)
