@@ -1,4 +1,4 @@
-﻿**Group 48**
+**Group 48**
 
 Benjamin Lathrop, Noah Bond, Jiacheng Shang, Zhenyu Wu, Garrett Norden
 
