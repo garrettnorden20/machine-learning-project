@@ -156,3 +156,11 @@ def logistic_regression_kfolds(X, y):
         #round(LR.score(Xv, yv), 4)
     return accuracies
 
+
+
+
+
+
+
+
+
