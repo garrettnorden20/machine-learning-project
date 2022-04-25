@@ -1,6 +1,6 @@
-﻿Group 48
+**Group 48**
 
-Benjamin Lathrop, Noah Bond, Jiacheng Shang, Zhenyu Wu, Garrett Norden
+*Benjamin Lathrop, Noah Bond, Jiacheng Shang, Zhenyu Wu, Garrett Norden*
 
 **Background**
 
@@ -41,11 +41,7 @@ We used the f\_regression to get scores for every one of the features. Using the
 |Gold Earned|612876.07|If a game goes on long enough, players will reach their item cap and gold will stop mattering. Until then, a lead in gold earned is what gives a player their greatest advantage over an opponent|
 |Deaths|423825.74|Time needed to return after dying goes up during the game. While dead, you can fall behind as your opponent collects gold, xp, and damages or kills turrets.|
 |Turret Kills|318142.5|Turrets stand between teams and the enemy base and must be destroyed in order to win.|
-|Assists|259543.0|Overall, used as a metric to see if teams are fighting together or alone. A team with many assists usually fights together|
-
-
-|||rather than alone.|
-| :- | :- | - |
+|Assists|259543.0|Overall, used as a metric to see if teams are fighting together or alone. A team with many assists usually fights together rather than alone.|
 |Gold Spent|210293.67|Gold is used to buy items that improve stats and can provide new abilities.|
 |Inhibitor Kills|184150.42|At least one inhibitor being destroyed is required for a win.|
 |Kills|160946.57|When a player gets a kill, they earn gold, experience, and most importantly an edge over their lane opponent. This can lead to snowballs in games if a player gets many kills in the opening minutes.|
@@ -61,6 +57,8 @@ We used the f\_regression to get scores for every one of the features. Using the
 |Pink Wards Bought|2111.36|Pink wards disable normal wards and cost gold each time they are used.|
 |Total CC Time Dealt|2055.69|CC (Crowd Control) refers to things like being stunned, slowed, or put to sleep. Many champions are designed to CC the enemy team to enable damage dealers to move in for the kill.|
 |Duration|0.12|Some champions get stronger over time, whereas some peak early in the match. Longer games benefit the former and shorter the latter.|
+
+
 Looking at the graph, the obvious most important feature seems to be gold earned. This makes the most sense, as gold is what is needed to purchase items that allow champions to become more powerful. A player who earns lots of gold will see a gap develop between their champion and their lane opponent’s champion. It is also worth noting that many other of the top features reward players with gold, such as getting kills, assists, killing minions, and destroying turrets and inhibitors. The next most important feature is deaths, which is the most negatively impacting of the top features. Dying rewards your opponents with gold, experience, and it removes you from the game for anywhere from five seconds to over a minute in long games. During that time, the opponents have one less player to keep track of and a massive advantage in being able to kill minions and damage turrets uninterrupted. Turrets and inhibitors are a genuine requirement to win, as a team needs to destroy at minimum five turrets and one inhibitor to destroy the enemy’s nexus and win the game. We can also see the further results of this impact via the next most important pieces of data all being kill-related: All of these individual factors contribute towards increasing the opponent’s death count. Some of the lesser important of the top features include things like wards. Wards provide information to players and while they do not explicitly cause kills or deaths, good players know to use them to keep tabs on the position of the enemy players.
 
 ![](Aspose.Words.00739ed4-2a2c-44ac-89bf-7ba59ce7d557.002.jpeg)
@@ -163,7 +161,9 @@ Win Rate by Player Type:
 
 After calculating the cluster label for each point and getting their average features, we did the same for the “wins” feature to see each player type’s win rate, perhaps providing more insight into which type lends itself to victory the most.
 
-![](Aspose.Words.00739ed4-2a2c-44ac-89bf-7ba59ce7d557.012.jpeg)Unsurprisingly, the Bad type has the lowest rate of wins, for reasons that should be obvious. Their low skills and stats in all categories would not make them useful to a team. Dying generates gold for their enemies, meaning they actively worsen their own odds. League of Legends is a game based around momentum, and falling behind early means staying behind unless something odd happens. As such, a bad player will often lose their games through lots of early mistakes.
+![](Aspose.Words.00739ed4-2a2c-44ac-89bf-7ba59ce7d557.012.jpeg)
+
+Unsurprisingly, the Bad type has the lowest rate of wins, for reasons that should be obvious. Their low skills and stats in all categories would not make them useful to a team. Dying generates gold for their enemies, meaning they actively worsen their own odds. League of Legends is a game based around momentum, and falling behind early means staying behind unless something odd happens. As such, a bad player will often lose their games through lots of early mistakes.
 
 Healer has the second lowest rate. This can be explained that Healers do not have the ability to make plays on their own - they are reliant on the skill of their teammates. And given that such a high number of players belongs to the Bad type, 24%, it can be inferred that many times their healing goes to waste on bad players. Many League of Legends players say it is difficult to move up in rank as a support player (which does a lot of healing) because so much of the work falls on other players. Tanks, who have the most health and as such naturally heal themselves more over time, similarly depend on their team to deal damage and get kills. If the tank is ahead but the rest of their team is behind, they will likely struggle to win.
 
